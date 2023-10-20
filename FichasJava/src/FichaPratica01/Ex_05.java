@@ -7,7 +7,7 @@ public class Ex_05 {
 
         Scanner input = new Scanner(System.in);
 
-        double num1, num2, num3, media, mediaAr;
+        double num1, num2, num3, media, mediaPond;
 
         System.out.print("Insira um número: ");
         num1 = input.nextDouble();
@@ -19,12 +19,10 @@ public class Ex_05 {
         num3 = input.nextDouble();
 
         media = (num1 + num2 + num3) / 3;
-        mediaAr = ((num1 * 0.2) + (num2 * 0.3) + (num3 * 0.5)) / 3;
+        mediaPond = ((num1 * 0.2) + (num2 * 0.3) + (num3 * 0.5));
 
-        System.out.println("A média aritemétrica é: " + mediaAr);
-
-
-
+        System.out.println("A média aritemética é: " + media);
+        System.out.println("A média ponderada é: " + mediaPond);
 
 
     }
