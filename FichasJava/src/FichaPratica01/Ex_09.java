@@ -24,7 +24,7 @@ public class Ex_09 {
 
         venc = venc - (venc * (IVA + IRS + segS)) + sub;
         System.out.println("Valor liquido a receber: " + venc);
-        
+
 
 
     }

@@ -1,12 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="2def3a30-ffc6-45ad-97c5-4626fd9bf1ac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/FichasJava/src/FichaPratica01/Ex_09.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FichasJava/src/FichaPratica02/Ex_01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FichasJava/src/FichaPratica02/Ex_02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FichasJava/src/FichaPratica02/Ex_03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FichasJava/src/FichaPratica02/Ex_04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FichasJava/src/FichaPratica02/Ex_05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FichasJava/src/FichaPratica02/Ex_06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FichasJava/src/FichaPratica02/Ex_07.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FichasJava/src/FichaPratica02/Ex_08.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FichasJava/src/FichaPratica02/Ex_09.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FichasJava/src/FichaPratica01/Ex_05.java" beforeDir="false" afterPath="$PROJECT_DIR$/FichasJava/src/FichaPratica01/Ex_05.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FichasJava/src/FichaPratica01/Ex_07.java" beforeDir="false" afterPath="$PROJECT_DIR$/FichasJava/src/FichaPratica01/Ex_07.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CESAE_Softdev_PRT_1023/FichaPratica01/Ex_05.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CESAE_Softdev_PRT_1023/FichaPratica01/Ex_05.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FichasJava/src/FichaPratica01/Ex_09.java" beforeDir="false" afterPath="$PROJECT_DIR$/FichasJava/src/FichaPratica01/Ex_09.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CESAE_Softdev_PRT_1023/FichaPratica01/Ex_07.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CESAE_Softdev_PRT_1023/FichaPratica01/Ex_07.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CESAE_Softdev_PRT_1023/FichaPratica01/Ex_09.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CESAE_Softdev_PRT_1023/FichaPratica01/Ex_09.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +50,9 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/softdev/Documents/GitHub/CESAE_Softdev_PRT_1023"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/softdev/Documents/GitHub/CESAE_Softdev_PRT_1023",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
