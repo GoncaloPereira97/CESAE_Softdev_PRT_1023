@@ -90,7 +90,7 @@ public class Ex_18 {
 
             break;
         default:
-        System.out.println("Ocorreu um erro");
+        System.out.println("Por favor verifique os dados");
         }
     }
 }
