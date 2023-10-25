@@ -1,0 +1,78 @@
+header img {
+    width: 70%;
+    max-width: 600px;
+    min-width: 400px;
+}
+
+header,
+footer {
+    text-align: center;
+}
+
+footer img {
+    width: 30px;
+    max-width: 30px;
+    min-width: 30px;
+}
+
+/* Pagina Home */
+
+/* Pagina Form */
+
+/* Pagina About */
+
+
+
+.about {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: 100%;
+    --wp-admin-theme-color: #007cba;
+    --wp-admin-theme-color-darker-10: #006ba1;
+    --wp-admin-theme-color-darker-20: #005a87;
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: #666;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0 0 10px;
+    margin-bottom: 20px;
+}
+
+h1 style {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: 100%;
+    --wp-admin-theme-color: #007cba;
+    --wp-admin-theme-color-darker-10: #006ba1;
+    --wp-admin-theme-color-darker-20: #005a87;
+    box-sizing: border-box;
+    padding: 0;
+    margin: .67em 0;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 36px;
+    line-height: 1.6em;
+    font-weight: 700;
+    font-style: normal;
+    font-family: 'Roboto';
+    color: #333;
+}
+
+.imgfooter {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: 100%;
+    --wp-admin-theme-color: #007cba;
+    --wp-admin-theme-color-darker-10: #006ba1;
+    --wp-admin-theme-color-darker-20: #005a87;
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: #666;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    zoom: 1;
+    margin-bottom: 0;
+}
