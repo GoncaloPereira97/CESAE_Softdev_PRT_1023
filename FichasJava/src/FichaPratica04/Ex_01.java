@@ -9,28 +9,35 @@ public class Ex_01 {
         int num1, num2, result;
         String opcao;
         do {
-            System.out.println("Insira um número");
+
+            System.out.println("Insira o primeiro número");
             num1 = input.nextInt();
-            System.out.println("Insira um número");
+            System.out.println("Insira o segundo número");
             num2 = input.nextInt();
-            System.out.println("Escolha a operação que deseja: ");
-            System.out.println("somar: +  |  subtrair: -  | multiplicar  *  | dividir:  /");
+            System.out.println("Que operação deseja executar?");
+            System.out.println("somar: +  |  subtrair: -  | multiplicar  *  | dividir:  /  ");
             opcao = input.next();
 
-            switch (opcao){
+
+            switch (opcao) {
                 case "+":
-                    System.out.println("Resultado: "num1 + num2);
+                    System.out.println("Resultado: " + (num1 + num2));
                     break;
                 case "-":
-                    System.out.println("Resultado: "num1 - num2);                    break;
+                    System.out.println("Resultado: " + (num1 - num2));
+                    break;
                 case "*":
-                    System.out.println("Resultado: "num1 * num2);                    break;
+                    System.out.println("Resultado: " + (num1 * num2));
+                    break;
                 case "/":
-                    System.out.println("Resultado: "num1 / num2);                    break;
+                    System.out.println("Resultado: " + (num1 / num2));
+                    break;
                 default:
                     System.out.println("Operação invalida");
             }
+            System.out.println("Deseja continuar? S. Sim  N. Nao");
+            opcao = input.next();
 
-        } while ( !opcao.equals("nao") );
+        } while (!opcao.equals("N"));
     }
 }

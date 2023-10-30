@@ -6,21 +6,17 @@ public class Ex_14 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        int num1, num2 = 0, num3 = 0, num4 = 0;
+        int num, fatorial;
 
         System.out.print("Escolha um número positivo: ");
-        num1 = input.nextInt();
-        num4 = num1;
-        num3 = num1;
+        num = input.nextInt();
 
-        while (num2 < num4) {
-            if (num3 > 1) {
-                num3 = num3 - 1;
-                num1 = num1 * num3;
-            }
-            num2++;
+        fatorial=num--;
+
+        while (num > 0) {
+            fatorial*=(num--);
         }
-        System.out.println(num1);
+        System.out.println(fatorial);
 
 
     }
