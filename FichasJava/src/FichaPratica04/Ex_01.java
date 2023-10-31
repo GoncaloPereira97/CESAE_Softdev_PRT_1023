@@ -35,9 +35,11 @@ public class Ex_01 {
                 default:
                     System.out.println("Operação invalida");
             }
-            System.out.println("Deseja continuar? S. Sim  N. Nao");
-            opcao = input.next();
+            do {
 
+                System.out.println("Deseja continuar? S. Sim  N. Nao");
+                opcao = input.next();
+            } while (!opcao.equals("S") && !opcao.equals("N"));
         } while (!opcao.equals("N"));
     }
 }
