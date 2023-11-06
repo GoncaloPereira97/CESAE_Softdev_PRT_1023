@@ -18,7 +18,9 @@ public class Ex_07 {
                 par = total[cont];
             }
         }
-        if (par > 0) {
+
+        
+        if (par != 0) {
             System.out.println("Maior numero par: " + par);
         } else System.out.println("nenhum numero par");
 

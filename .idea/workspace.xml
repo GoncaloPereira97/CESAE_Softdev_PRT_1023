@@ -5,18 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2def3a30-ffc6-45ad-97c5-4626fd9bf1ac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/FichasJava/src/FichaPratica05/Ex_09.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FichasJava/src/FichaPratica05/Ex_10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FichasJava/src/FichaPratica05/Ex_11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FichasJava/src/FichaPratica05/Ex_12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FichasJava/src/FichaPratica05/Ex_13.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FichasJava/src/FichaPratica05/FichaExtra/Ex_01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FichasJava/src/FichaPratica05/FichaExtra/Ex_02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FichasJava/src/FichaPratica05/FichaExtra/Ex_03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FichasJava/src/FichaPratica05/FichaExtra/Ex_04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FichasJava/src/FichaPratica05/FichaExtra/Ex_05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FichasJava/src/FichaPratica05/FichaExtra/Ex_06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FichasJava/src/FichaPratica05/FichaExtra/Ex_07.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FichasJava/src/FichaPratica05/Ex_08.java" beforeDir="false" afterPath="$PROJECT_DIR$/FichasJava/src/FichaPratica05/Ex_08.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CESAE_Softdev_PRT_1023/FichaPratica04/Ex_01.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CESAE_Softdev_PRT_1023/FichaPratica04/Ex_01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FichasJava/src/FichaPratica05/Ex_07.java" beforeDir="false" afterPath="$PROJECT_DIR$/FichasJava/src/FichaPratica05/Ex_07.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FichasJava/src/FichaPratica05/FichaExtra/Ex_04.java" beforeDir="false" afterPath="$PROJECT_DIR$/FichasJava/src/FichaPratica05/FichaExtra/Ex_04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CESAE_Softdev_PRT_1023/FichaPratica05/FichaExtra/Ex_03.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CESAE_Softdev_PRT_1023/FichaPratica05/FichaExtra/Ex_03.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
