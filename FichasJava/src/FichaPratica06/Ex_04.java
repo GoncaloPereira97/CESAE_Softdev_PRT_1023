@@ -10,17 +10,17 @@ public class Ex_04 {
 
         int opcao, num;
 
+        System.out.println("Digite um número: ");
+        num = input.nextInt();
 
         do {
-            System.out.println("Digite um número: ");
-            num = input.nextInt();
-            System.out.println("Escolha uma opção:");
+            System.out.println("Escolha uma opção:\n");
             System.out.println("1. Par ou Impar");
             System.out.println("2. Positivo ou Negativo");
             System.out.println("3. Primo ou Não Primo");
             System.out.println("4. Perfeito ou Não Perfeito");
             System.out.println("5. Tringular ou Não Triangular");
-            System.out.println("6. Trocar de Número");
+            System.out.println("6. Trocar de Número\n");
             opcao = input.nextInt();
 
             switch (opcao) {
@@ -50,10 +50,13 @@ public class Ex_04 {
                     } else System.out.println("Não triangular");
                     break;
                 case 6:
+                    System.out.println("Digite um número: ");
+                    num = input.nextInt();
+                    break;
+                case 7:
                     break;
             }
-            System.out.println("7. Sair 8. Recomeçar");
-            opcao = input.nextInt();
+
         } while (opcao != 7);
     }
 }

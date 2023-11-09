@@ -70,7 +70,7 @@ public class Ex_03 {
     static boolean triangular(int num) {
         int soma = 0;
         for (int cont = 0; soma < num; cont++) {
-            soma = soma + cont;
+            soma += cont;
         }
         return soma == num;
     }

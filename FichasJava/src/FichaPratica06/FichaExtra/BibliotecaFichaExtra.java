@@ -28,7 +28,7 @@ public class BibliotecaFichaExtra {
         return menor;
     }
 
-    public static double media(int num1, int num2, int num3){
+    public static double media(int num1, int num2, int num3) {
         return (num1 + num2 + num3) / 3;
     }
 
@@ -47,6 +47,7 @@ public class BibliotecaFichaExtra {
 
     /**
      * Método que faz a tabuada de um número
+     *
      * @param num Recebe um número e imprime a tabuada do mesmo de 1 até 10
      */
     public static void imprimirTabuada(int num) {
@@ -59,17 +60,18 @@ public class BibliotecaFichaExtra {
 
     /**
      * Método para contar piadas
+     *
      * @param piada Recebe um número do utilizador para escolher uma piada
      * @return Retorna uma piada
      */
-    public static String contarPiada(int piada){
+    public static String contarPiada(int piada) {
 
         String piadaEscolhida;
 
-        switch (piada){
+        switch (piada) {
 
             case 1:
-               piadaEscolhida = "Porque é que a manteiga não entrou na discoteca? Porque foi barrada.";
+                piadaEscolhida = "Porque é que a manteiga não entrou na discoteca? Porque foi barrada.";
                 break;
             case 2:
                 piadaEscolhida = "Qual é o único prato que ninguém consegue fazer direito? A torta";
@@ -90,6 +92,150 @@ public class BibliotecaFichaExtra {
                 piadaEscolhida = "Só temos 6 piadas. Espere pelo proximo update!";
         }
         return piadaEscolhida;
+    }
+
+    /**
+     * Método que calcula a soma dos elementos de um número
+     *
+     * @param num Recebe um número do utilizador
+     * @return Retorna a soma dos seus elementos
+     */
+
+    public static double somatorio(int num) {
+
+        int cont, numIn, result = 1, soma = 0, resto = 0, div = 0;
+
+        numIn = num;
+
+        for (cont = 0; num >= 10; cont++) {
+            num = num / 10;
+        }
+
+        while (cont > 0) {
+            result = result * 10;
+            cont--;
+        }
+        resto = numIn;
+
+        while (result > 0) {
+            div = resto / result;
+            soma = div + soma;
+            resto = numIn % result;
+            result = result / 10;
+        }
+        return soma;
+
+    }
+
+    /**
+     * Método que inverte os elementos de um número
+     *
+     * @param num Recebe um número do utilizador
+     * @return Retorna os seus elementos invertidos
+     */
+    public static int inverterInteiro(int num) {
+
+        int numIn, div = 0, cont = 0, num0 = 1, ordNum, numFinal = 0;
+
+
+        numIn = num;
+        for (cont = 0; num >= 10; cont++) {
+            num = num / 10;
+        }
+
+        while (cont > 0) {
+            num0 = num0 * 10;
+            cont--;
+        }
+
+        while (numIn > 0) {
+            ordNum = numIn % 10;
+            ordNum = ordNum * num0;
+            num0 = num0 / 10;
+            numIn = numIn / 10;
+            numFinal = ordNum + numFinal;
+
+        }
+        return numFinal;
+    }
+
+    /**
+     * Método que identifica se uma letra é Vogal ou Consoante
+     * @param caracter Recebe uma letra do utilizador
+     * @return Retorna true se Vogal ou false se Consoante
+     */
+
+    public static boolean vogal(String caracter) {
+
+        boolean vogal = true;
+
+        caracter = caracter.toLowerCase();
+
+
+        switch (caracter) {
+            case "a":
+            case "e":
+            case "i":
+            case "o":
+            case "u":
+                return vogal;
+            default: return !vogal;
+
+
+        }
+
+    }
+
+    /**
+     * Método que recebe um número de 1 a 12 e identifica o mês correspondente
+     * @param num Recebe o número
+     * @return retorna o mês correspondente
+     */
+    public static String mes(int num){
+
+        String mes;
+        switch (num){
+            case 1:
+                mes = "Janeiro";
+                break;
+            case 2:
+                mes =  "Fevereiro";
+                break;
+            case 3:
+                mes =  "Março";
+                break;
+            case 4:
+                mes =  "Abril";
+                break;
+            case 5:
+                mes =  "Maio";
+                break;
+            case 6:
+                mes =  "Junho";
+                break;
+            case 7:
+                mes =  "Julho";
+                break;
+            case 8:
+                mes =  "Agosto";
+                break;
+            case 9:
+                mes =  "Setembro";
+                break;
+            case 10:
+                mes =  "Outubro";
+                break;
+            case 11:
+                mes =  "Novembro";
+                break;
+            case 12:
+                mes =  "Dezembro";
+                break;
+            default:
+                mes =  "Nenhum mês correspondente";
+
+        }
+        return mes;
     }
 }
 
