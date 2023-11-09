@@ -7,22 +7,22 @@ import java.util.Scanner;
 public class Ex_05_3 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+        // cont2 criado aqui para puder ser usado nos dois "for"
+        // variavel num, serve para começar o cont2 no primeiro for de escrita a 1 e ir aumentando o número com que começa
+        int limiteLinhas = 5, limiteEspaco = 0, num = 1, cont2;
 
-        int limiteLinhas = 5, limiteEspaco = 0, num;
-        num = 1;
-        
         // for para contagem de linhas
         for (int linhas = 0; linhas < limiteLinhas; linhas++) {
+            // cont = 1 criado aqui para voltar sempre a 1 depois de cada vez que o "for" correr, esta variavel vai representar o 1 no centro da piramide
+            int cont = 1;
             // For abaixo faz os espaços
             for (int espaco = limiteLinhas; espaco > limiteEspaco; espaco--) {
                 System.out.print(" ");
 
             }
             limiteEspaco++;
-            // cont = 1 para o número do meio ser sempre o 1
-            int cont = 1;
-            // cont2 criado aqui para puder ser usado nos dois for
-            int cont2;
+
+
             // for para a criação dos números da esquerda até ao 1, cont2 começa = num que é 1
             // --> num++ depois dos for, na proxima rotação dos for o cont2 ja passa a ser 2 e dps 3 etc
             // --> cont++ pelo mesmo motivo
