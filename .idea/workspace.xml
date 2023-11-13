@@ -47,13 +47,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Ex_05_3">
-    <configuration name="Ex_04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FichaPratica06.Ex_04" />
+  <component name="RunManager" selected="Application.Ex_05">
+    <configuration name="Ex_02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FichaPratica07.Ex_02" />
       <module name="CESAE_Softdev_PRT_1023" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="FichaPratica06.*" />
+          <option name="PATTERN" value="FichaPratica07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -61,12 +61,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex_05_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FichaPratica03.FichaExtra.Ex_05_3" />
+    <configuration name="Ex_03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FichaPratica07.Ex_03" />
       <module name="CESAE_Softdev_PRT_1023" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="FichaPratica03.FichaExtra.*" />
+          <option name="PATTERN" value="FichaPratica07.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex_04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FichaPratica07.Ex_04" />
+      <module name="CESAE_Softdev_PRT_1023" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FichaPratica07.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex_05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FichaPratica07.Ex_05" />
+      <module name="CESAE_Softdev_PRT_1023" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FichaPratica07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,37 +101,11 @@
       </method>
     </configuration>
     <configuration name="Ex_06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FichaPratica06.FichaExtra.Ex_06" />
+      <option name="MAIN_CLASS_NAME" value="FichaPratica07.Ex_06" />
       <module name="CESAE_Softdev_PRT_1023" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="FichaPratica06.FichaExtra.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ex_08" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FichaPratica06.FichaExtra.Ex_08" />
-      <module name="CESAE_Softdev_PRT_1023" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="FichaPratica06.FichaExtra.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ex_09" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FichaPratica06.FichaExtra.Ex_09" />
-      <module name="CESAE_Softdev_PRT_1023" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="FichaPratica06.FichaExtra.*" />
+          <option name="PATTERN" value="FichaPratica07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Ex_05_3" />
-        <item itemvalue="Application.Ex_04" />
-        <item itemvalue="Application.Ex_09" />
-        <item itemvalue="Application.Ex_08" />
+        <item itemvalue="Application.Ex_05" />
         <item itemvalue="Application.Ex_06" />
+        <item itemvalue="Application.Ex_04" />
+        <item itemvalue="Application.Ex_03" />
+        <item itemvalue="Application.Ex_02" />
       </list>
     </recent_temporary>
   </component>
