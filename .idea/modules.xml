@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CESAE_Softdev_PRT_1023.iml" filepath="$PROJECT_DIR$/CESAE_Softdev_PRT_1023.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projeto/Projeto.iml" filepath="$PROJECT_DIR$/Projeto/Projeto.iml" />
     </modules>
   </component>
 </project>

@@ -34,22 +34,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/softdev/Documents/GitHub/CESAE_Softdev_PRT_1023&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "openjdk-21",
+    "last_opened_file_path": "C:/Users/softdev/Documents/GitHub/CESAE_Softdev_PRT_1023",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
-  <component name="RunManager" selected="Application.Ex_05">
-    <configuration name="Ex_02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FichaPratica07.Ex_02" />
+}]]></component>
+  <component name="RunManager" selected="Application.Ex_11">
+    <configuration name="Ex_07" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FichaPratica07.Ex_07" />
       <module name="CESAE_Softdev_PRT_1023" />
       <extension name="coverage">
         <pattern>
@@ -61,8 +62,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex_03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FichaPratica07.Ex_03" />
+    <configuration name="Ex_08" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FichaPratica07.Ex_08" />
       <module name="CESAE_Softdev_PRT_1023" />
       <extension name="coverage">
         <pattern>
@@ -74,8 +75,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex_04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FichaPratica07.Ex_04" />
+    <configuration name="Ex_09" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FichaPratica07.Ex_09" />
       <module name="CESAE_Softdev_PRT_1023" />
       <extension name="coverage">
         <pattern>
@@ -87,8 +88,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex_05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FichaPratica07.Ex_05" />
+    <configuration name="Ex_10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FichaPratica07.Ex_10" />
       <module name="CESAE_Softdev_PRT_1023" />
       <extension name="coverage">
         <pattern>
@@ -100,8 +101,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex_06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FichaPratica07.Ex_06" />
+    <configuration name="Ex_11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FichaPratica07.Ex_11" />
       <module name="CESAE_Softdev_PRT_1023" />
       <extension name="coverage">
         <pattern>
@@ -115,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Ex_05" />
-        <item itemvalue="Application.Ex_06" />
-        <item itemvalue="Application.Ex_04" />
-        <item itemvalue="Application.Ex_03" />
-        <item itemvalue="Application.Ex_02" />
+        <item itemvalue="Application.Ex_11" />
+        <item itemvalue="Application.Ex_10" />
+        <item itemvalue="Application.Ex_09" />
+        <item itemvalue="Application.Ex_08" />
+        <item itemvalue="Application.Ex_07" />
       </list>
     </recent_temporary>
   </component>
