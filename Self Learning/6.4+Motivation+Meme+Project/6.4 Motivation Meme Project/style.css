@@ -1,0 +1,13 @@
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+h1{
+    font-size: 70px;
+    text-transform: uppercase;
+}
+img{
+    border: 4px white solid;
+}

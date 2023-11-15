@@ -1,3 +1,4 @@
 {
-    "liveServer.settings.CustomBrowser": "chrome"
+    "liveServer.settings.CustomBrowser": "chrome",
+    "livePreview.defaultPreviewPath": "/Web_Dev/Ficha01/index.html"
 }
