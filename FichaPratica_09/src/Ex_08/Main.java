@@ -6,6 +6,6 @@ public class Main {
 
         Aluno joaquim = new Aluno("Joaquim", 25, "Soft-dev", 9.6);
 
-        joaquim.aprovado();
+        joaquim.situacao();
     }
 }
