@@ -27,8 +27,11 @@ public class Catalogo {
     }
 
     public void verCatalogo() {
+        System.out.println("\t\t------LISTA AVIÕES-------\n");
         for (int cont = 0; cont < avioes.size(); cont++) {
             avioes.get(cont).detalhesAviao();
+            System.out.println("");
         }
+        System.out.println("\n\t\t\t-------FIM--------\n");
     }
 }

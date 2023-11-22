@@ -35,6 +35,6 @@ public class Avioes {
     }
 
     public void detalhesAviao(){
-        System.out.println(this.numSerie + " | " + this.modelo + " | " + this.anoFabrico + " | " + this.compFuselagem + "m comprimento fuselagem | " + this.compAsas + "m comprimento asas | " + this.alturaCauda + "m de cauda | " + this.numMotores + " motores | " + this.autonomia + "km | " + this.velocidadeMax + "km/h");
+        System.out.print(this.numSerie + " | " + this.modelo + " | " + this.anoFabrico + " | " + this.compFuselagem + "m comprimento fuselagem | " + this.compAsas + "m comprimento asas | " + this.alturaCauda + "m de cauda | " + this.numMotores + " motores | " + this.autonomia + "km | " + this.velocidadeMax + "km/h\n");
     }
 }

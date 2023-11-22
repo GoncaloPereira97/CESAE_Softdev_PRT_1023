@@ -21,4 +21,13 @@ public class AvioesParticulares extends Avioes{
     public void addInstalacoes(Instalacoes instalacao){
         instalacoes.add(instalacao);
     }
+
+    @Override
+    public void detalhesAviao() {
+        super.detalhesAviao();
+        System.out.print(this.lotacao + " passageiros | " + this.capacidadeCarga + "kg | " + this.categoriaParticulares);
+        for (int cont = 0; cont < instalacoes.size(); cont++) {
+            System.out.print(" | " + instalacoes.get(cont).toString());
+        }
+    }
 }

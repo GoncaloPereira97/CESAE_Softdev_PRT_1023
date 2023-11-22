@@ -14,16 +14,20 @@ public class Main {
         aviao1.addArma(METRELHADORAS);
         aviao1.addArma(MISSEIS);
         aviao2.addInstalacoes(WC);
+        aviao2.addInstalacoes(CINEMA);
+        aviao2.addInstalacoes(CHUVEIRO);
         Catalogo listaAvioes = new Catalogo();
 
 
         listaAvioes.comprarAviao(aviao1);
         listaAvioes.comprarAviao(aviao2);
-        System.out.println(listaAvioes.valorCatalogo());
+
 
         listaAvioes.verCatalogo();
+        System.out.println("Valor do catálogo: " + listaAvioes.valorCatalogo());
+//        listaAvioes.venderAviao(aviao1);
 
-        listaAvioes.venderAviao(aviao1);
+//        aviao2.detalhesAviao();
 
 
     }
