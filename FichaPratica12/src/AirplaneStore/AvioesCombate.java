@@ -21,4 +21,17 @@ public class AvioesCombate extends Avioes{
     public void addArma(Armas arma){
         armas.add(arma);
     }
+
+    @Override
+    public void detalhesAviao() {
+        super.detalhesAviao();
+        System.out.print(this.pais);
+        if (this.camo){
+            System.out.print(" | com camoflagem");
+        } else System.out.print(" | sem camoflagem");
+        for (int cont = 0; cont < armas.size(); cont++) {
+            System.out.print(" | " + armas.get(cont).toString());
+        }
+        System.out.println("\n");
+    }
 }
