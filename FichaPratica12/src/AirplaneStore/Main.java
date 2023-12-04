@@ -11,12 +11,17 @@ public class Main {
 
         AvioesCombate aviao1 = new AvioesCombate(123456, "F-16", 2006, 4, 3, 1, 2, 270, 600, 1500000, "Portugal", true);
         AvioesParticulares aviao2 = new AvioesParticulares(53673, "Boeing", 2010, 6, 28, 3,2, 1970, 450, 2700000, 123,740,CategoriaParticulares.HEAVY);
+        Avioes aviao3 = new AvioesParticulares(53673, "DSADADADADA", 2010, 6, 28, 3,2, 1970, 450, 2700000, 123,740,CategoriaParticulares.HEAVY);
+
+        aviao3.detalhesAviao();
+        System.out.println("\n");
         aviao1.addArma(METRELHADORAS);
         aviao1.addArma(MISSEIS);
         aviao2.addInstalacoes(WC);
         aviao2.addInstalacoes(CINEMA);
         aviao2.addInstalacoes(CHUVEIRO);
         Catalogo listaAvioes = new Catalogo();
+
 
 
         listaAvioes.comprarAviao(aviao1);

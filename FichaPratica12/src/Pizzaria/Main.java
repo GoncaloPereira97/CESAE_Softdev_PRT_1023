@@ -1,5 +1,6 @@
 package Pizzaria;
 
+import Pizzaria.Enums.MassaPizza;
 import Pizzaria.Enums.TamanhoPizza;
 import Pizzaria.Enums.UnidadeMedida;
 
@@ -10,12 +11,12 @@ import static Pizzaria.Enums.UnidadeMedida.LITROS;
 public class Main {
     public static void main(String[] args) {
         ConstruirPizza pepperoni = new ConstruirPizza(1,"Pizza Pepperoni");
-        Pizza nova = new Pizza(132, "Pizza Pepperoni", GRANDE, 19.90,"Pizza Tradicional de Pepperoni");
+        Pizza nova = new Pizza(132, "Pizza Pepperoni", GRANDE, 19.90,"Pizza Tradicional de Pepperoni", MassaPizza.ALTA);
 
         Ingredientes pep = new Ingredientes(543, "Pepperoni", GRAMAS, 230,300);
         Ingredientes queijo = new Ingredientes(7652, "Queijo", GRAMAS, 134,200);
         Ingredientes tomate = new Ingredientes(2345, "Molho Tomate", LITROS, 30,0.09);
-
+//        Ingredientes leok = new Pizza(21,"GRANDE",GRANDE, 1.1,"sdfsfsdfs", MassaPizza.ALTA );
 
         pepperoni.addIngredientes(pep);
         pepperoni.addIngredientes(queijo);

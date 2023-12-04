@@ -25,6 +25,7 @@ public class AvioesParticulares extends Avioes{
     @Override
     public void detalhesAviao() {
         super.detalhesAviao();
+        System.out.println("tes tesets etset st ste st etste");
         System.out.print(this.lotacao + " passageiros | " + this.capacidadeCarga + "kg | " + this.categoriaParticulares);
         for (int cont = 0; cont < instalacoes.size(); cont++) {
             System.out.print(" | " + instalacoes.get(cont).toString());

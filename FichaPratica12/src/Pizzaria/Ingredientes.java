@@ -13,6 +13,7 @@ public class Ingredientes extends ConstruirPizza {
 
     private double quantidade;
 
+
     public Ingredientes(int id, String nome, UnidadeMedida unidadeMedida, double calorias, double quantidade) {
         super(id, nome);
         this.unidadeMedida = unidadeMedida;
