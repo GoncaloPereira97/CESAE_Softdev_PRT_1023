@@ -5,37 +5,42 @@ import Pizzaria.Enums.UnidadeMedida;
 
 import static Pizzaria.Enums.UnidadeMedida.*;
 
-public class Ingredientes extends ConstruirPizza {
+public class Ingredientes{
+
+    private int id;
+
+    private String nome;
 
     private UnidadeMedida unidadeMedida;
 
     private double calorias;
 
-    private double quantidade;
 
 
+<<<<<<< HEAD
     public Ingredientes(int id, String nome, UnidadeMedida unidadeMedida, double calorias, double quantidade) {
         super(id, nome);
+=======
+    public Ingredientes(int id, String nome, UnidadeMedida unidadeMedida, double calorias) {
+        this.id = id;
+        this.nome = nome;
+>>>>>>> 5a66311b46d91f0962494e198fa6884b4eb52513
         this.unidadeMedida = unidadeMedida;
         this.calorias = calorias;
-        this.quantidade = quantidade;
     }
 
-    @Override
-    public void imprimirDetalhes() {
-        super.imprimirDetalhes();
-        System.out.print(this.unidadeMedida  + " | " + this.calorias + "Kcal ] : ");
-        if (this.unidadeMedida.equals(GRAMAS)){
-            System.out.println(this.quantidade + " g.");
-        } else if (this.unidadeMedida.equals(LITROS)) {
-            System.out.println(this.quantidade + " L.");
-        } else if (this.unidadeMedida.equals(UNIDADES)) {
-            System.out.println(this.quantidade + " uni.");
-        }
+    public int getId() {
+        return id;
     }
-
+    public String getNome() {
+        return nome;
+    }
     public double getCalorias() {
         return calorias;
     }
+    public UnidadeMedida getUnidadeMedida() {
+        return unidadeMedida;
+    }
+
 
 }
