@@ -1,0 +1,16 @@
+tipo;nome;preco;heroisPermitidos;ataque;ataqueEspecial;ataqueInstantaneo;vida;forca
+ArmaPrincipal;Chicote de Armas;15;[Barbarian];15;20;10;5;8
+ArmaPrincipal;Bastao de Madeira;15;[Wizard];15;25;5;3;6
+ArmaPrincipal;Arco Longo;15;[Ranger];15;19;24;4;7
+ArmaPrincipal;Anduril;50;[Barbarian];80;75;50;20;35
+ArmaPrincipal;Staff de Gandalf the Grey;50;[Wizard];80;150;50;30;15
+ArmaPrincipal;Arco de Legolas;50;[Ranger];80;100;50;20;20
+ArmaPrincipal;Neo Hammer;15;[Brute];15;20;10;5;8
+ArmaPrincipal;Braco Robotico;15;[Techie];15;25;5;3;6
+ArmaPrincipal;Holger 554;15;[Soldier];15;19;24;4;7
+ArmaPrincipal;Bazuca Lendaria;50;[Brute,Techie,Soldier];80;150;50;20;35
+ConsumivelCombate;Granada de Mao;10;[Cavaleiro,Arqueiro];0;0;30;0;0
+ConsumivelCombate;Avada Kedavra;25;[Feiticeiro];0;0;200;0;0
+Pocao;Vinho do Porto;5;[Cavaleiro,Arqueiro,Feiticeiro];0;0;0;8;15
+Pocao;Injecao Adrenalina;18;[Cavaleiro,Arqueiro];0;0;0;-15;15
+Pocao;Injecao Adrenalina;18;[Cavaleiro,Arqueiro];0;0;0;-15;15

@@ -1,0 +1,8 @@
+tipo;nome;preco;heroisPermitidos;ataque;ataqueEspecial;ataqueInstantaneo;vida;forca
+ArmaPrincipal;Excalibur;75;[Cavaleiro,Feiticeiro];20;35;0;0;0
+ArmaPrincipal;Faca Manteiga;5;[Cavaleiro];2;3;0;0;0
+ArmaPrincipal;Arco Velho;4;[Arqueiro];3;5;0;0;0
+ConsumivelCombate;Granada de Mao;10;[Cavaleiro,Arqueiro];0;0;30;0;0
+ConsumivelCombate;Avada Kedavra;25;[Feiticeiro];0;0;200;0;0
+Pocao;Vinho do Porto;5;[Cavaleiro,Arqueiro,Feiticeiro];0;0;0;8;15
+Pocao;Injecao Adrenalina;18;[Cavaleiro,Arqueiro];0;0;0;-15;15
