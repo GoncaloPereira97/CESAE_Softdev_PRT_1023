@@ -16,6 +16,7 @@ public class Heroi extends Entidade{
 
     public static Heroi getInstance() {
         if (instance == null){
+
         }
 
 

@@ -14,5 +14,6 @@ public class CaracterCreation {
        int maxHP, HP, strength, inteligence, dexterity, level, gold;
        Item primaryWeapon;
        AtackStrategy classType;
+
     }
 }

@@ -1,4 +1,4 @@
-tipo;nome;preco;heroisPermitidos;ataque;ataqueEspecial;ataqueInstantaneo;vida;forca
+tipo;nome;preco;heroisPermitidos;ataque;ataqueEspecial;ataqueInstantaneo;vida;primaryStat
 ArmaPrincipal;Chicote de Armas;15;[Barbarian];15;20;10;5;8
 ArmaPrincipal;Bastao de Madeira;15;[Wizard];15;25;5;3;6
 ArmaPrincipal;Arco Longo;15;[Ranger];15;19;24;4;7
