@@ -18,7 +18,7 @@ public class Armas extends ItemHeroi{
     }
 
     public int getAtaque() {
-        return ataque;
+        return this.ataque;
     }
 
     public int getAtaqueEspecial() {

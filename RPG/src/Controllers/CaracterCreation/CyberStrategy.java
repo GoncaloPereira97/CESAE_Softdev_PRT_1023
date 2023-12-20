@@ -4,6 +4,7 @@ import Controllers.AtackStrategy.BruteStrategy;
 import Controllers.AtackStrategy.SoldierStrategy;
 import Controllers.AtackStrategy.TechieStrategy;
 import Domain.Entidades.Heroi;
+import Domain.Items.Armas;
 import Domain.Items.ItemHeroi;
 import Repository.ItemRepository;
 
@@ -19,7 +20,7 @@ public class CyberStrategy implements CreationInterface{
         String classHeroi = "", nome;
         Heroi heroi = null;
         int maxHP,HP,strength,inteligence,dexterity;
-        ItemHeroi primaryWeapon = null;
+        Armas primaryWeapon = null;
 
         System.out.println("\t***Caracter Creation***");
         System.out.println("Escolhe o nome do heroi: ");
@@ -36,7 +37,7 @@ public class CyberStrategy implements CreationInterface{
                     strength = 10;
                     inteligence = 5;
                     dexterity = 5;
-                    primaryWeapon = itemRepository.procurarItem("Neo Hammer");
+                    primaryWeapon = (Armas) itemRepository.procurarItem("Neo Hammer");
                     heroi= Heroi.getInstance(nome, maxHP, HP, strength, inteligence, dexterity, primaryWeapon,new BruteStrategy());
                     break;
                 case "techie":
@@ -45,7 +46,7 @@ public class CyberStrategy implements CreationInterface{
                     strength = 5;
                     inteligence = 10;
                     dexterity = 5;
-                    primaryWeapon = itemRepository.procurarItem("Braco Robotico");
+                    primaryWeapon = (Armas) itemRepository.procurarItem("Braco Robotico");
                     heroi= Heroi.getInstance(nome, maxHP, HP, strength, inteligence, dexterity, primaryWeapon,new TechieStrategy());
                     break;
                 case "soldier":
@@ -54,7 +55,7 @@ public class CyberStrategy implements CreationInterface{
                     strength = 5;
                     inteligence = 5;
                     dexterity = 10;
-                    primaryWeapon = itemRepository.procurarItem("Holger 554");
+                    primaryWeapon = (Armas) itemRepository.procurarItem("Holger 554");
                     heroi= Heroi.getInstance(nome, maxHP, HP, strength, inteligence, dexterity, primaryWeapon,new SoldierStrategy());
 
                 default:

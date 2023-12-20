@@ -1,9 +1,6 @@
 package Tools;
 
-import Domain.Items.Armas;
-import Domain.Items.ItemCombate;
-import Domain.Items.ItemHeroi;
-import Domain.Items.Pocao;
+import Domain.Items.*;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -43,6 +40,8 @@ public class CSVItemReader {
                 currentItemHeroi = new ItemCombate(tipo, nome, preco, ataqueInstantaneo);
             } else if (tipo.equalsIgnoreCase("Pocao")) {
                 currentItemHeroi = new Pocao(tipo, nome, preco,vida,primaryStat);
+            } else if (tipo.equalsIgnoreCase("ArmaLendaria")) {
+                currentItemHeroi = new ArmasLendarias(tipo, nome, preco, ataque, ataqueEspecial,vida, primaryStat);
             }
 
             for (String heroiAtual: splitHeroisPermitidos) {

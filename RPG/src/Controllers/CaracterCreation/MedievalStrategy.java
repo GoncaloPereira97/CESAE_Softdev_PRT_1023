@@ -2,6 +2,7 @@ package Controllers.CaracterCreation;
 
 import Controllers.AtackStrategy.*;
 import Domain.Entidades.Heroi;
+import Domain.Items.Armas;
 import Domain.Items.ItemHeroi;
 import Repository.ItemRepository;
 
@@ -17,7 +18,7 @@ public class MedievalStrategy implements CreationInterface{
         String classHeroi = "", nome;
         Heroi heroi = null;
         int maxHP,HP,strength,inteligence,dexterity;
-        ItemHeroi primaryWeapon = null;
+        Armas primaryWeapon = null;
 
 
         System.out.println("\t***Caracter Creation***");
@@ -34,7 +35,7 @@ public class MedievalStrategy implements CreationInterface{
                     strength = 10;
                     inteligence = 5;
                     dexterity = 5;
-                    primaryWeapon = itemRepository.procurarItem("Chicote de Armas");
+                    primaryWeapon = (Armas) itemRepository.procurarItem("Chicote de Armas");
                     heroi= Heroi.getInstance(nome, maxHP, HP, strength, inteligence, dexterity, primaryWeapon,new BarbarianStrategy());
                     break;
                 case "wizard":
@@ -43,7 +44,7 @@ public class MedievalStrategy implements CreationInterface{
                     strength = 5;
                     inteligence = 10;
                     dexterity = 5;
-                    primaryWeapon = itemRepository.procurarItem("Bastao de Madeira");
+                    primaryWeapon = (Armas) itemRepository.procurarItem("Bastao de Madeira");
                     heroi= Heroi.getInstance(nome, maxHP, HP, strength, inteligence, dexterity, primaryWeapon,new WizardStrategy());
                     break;
                 case "ranger":
@@ -52,7 +53,7 @@ public class MedievalStrategy implements CreationInterface{
                     strength = 5;
                     inteligence = 5;
                     dexterity = 10;
-                    primaryWeapon = itemRepository.procurarItem("Arco Longo");
+                    primaryWeapon = (Armas) itemRepository.procurarItem("Arco Longo");
                     heroi= Heroi.getInstance(nome, maxHP, HP, strength, inteligence, dexterity, primaryWeapon,new RangerStrategy());
 
                 default:
