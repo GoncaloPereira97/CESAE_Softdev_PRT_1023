@@ -9,8 +9,8 @@ public class Armas extends ItemHeroi{
 
     private int primaryStat;
 
-    public Armas(String tipo, String nome, int preco, int ataque, int ataqueEspecial,int vida ,int primaryStat) {
-        super(tipo, nome, preco);
+    public Armas(String tipo, String nome, int preco, String era, int ataque, int ataqueEspecial, int vida, int primaryStat) {
+        super(tipo, nome, preco, era);
         this.ataque = ataque;
         this.ataqueEspecial = ataqueEspecial;
         this.vida = vida;
@@ -29,6 +29,6 @@ public class Armas extends ItemHeroi{
     @Override
     public void itemDetails() {
         super.itemDetails();
-        System.out.println("Ataque: " + this.ataque + " | Ataque Especial: " + this.ataqueEspecial + " | maxHP: +" + this.vida + " | Primary stat: +" + this.primaryStat);
+        System.out.println(String. format("%-10s", "Ataque: " + this.ataque) + " | Ataque Especial: " + this.ataqueEspecial + " | maxHP: +" + this.vida + " | Primary stat: +" + this.primaryStat);
     }
 }

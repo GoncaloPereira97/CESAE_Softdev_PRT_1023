@@ -9,11 +9,14 @@ public abstract class ItemHeroi {
     private int preco;
     private ArrayList <String> heroisPermitidos;
 
-    public ItemHeroi(String tipo, String nome, int preco) {
+    private String era;
+
+    public ItemHeroi(String tipo, String nome, int preco, String era) {
         this.tipo = tipo;
         this.nome = nome;
         this.preco = preco;
         this.heroisPermitidos = new ArrayList<>();
+        this.era = era;
     }
 
     public void addHeroiPermitido(String atackStrategy){
@@ -36,13 +39,15 @@ public abstract class ItemHeroi {
         return heroisPermitidos;
     }
 
-
-
+    public String getEra() {
+        return era;
+    }
 
     public void itemDetails(){
-        System.out.print(this.tipo + "\t | " + this.nome + " | " + this.preco + " | ");
-        for (String heroiAtual: heroisPermitidos) {
-            System.out.println(heroiAtual + " | ");
-        }
+        System.out.print(String. format("%-20s", this.tipo) + " | " + String. format("%-20s", this.nome) + " | " + String. format("%-6s", this.preco) + " | " + String. format("%-28s", heroisPermitidos) + " | ");
+    }
+
+    public void setPreco(int preco) {
+        this.preco = preco;
     }
 }

@@ -3,6 +3,7 @@ package Repository;
 import Domain.Items.ItemHeroi;
 import Tools.CSVItemReader;
 
+import java.io.FileNotFoundException;
 import java.util.ArrayList;
 
 public class ItemRepository {
@@ -11,21 +12,24 @@ public class ItemRepository {
 
     private String filePath = "Files/ItensHeroiRPG.csv";
 
-    public ItemRepository() {
-        CSVItemReader csvItemReader = new CSVItemReader(filePath);
+    public ItemRepository() throws FileNotFoundException {
+        CSVItemReader csvItemReader = new CSVItemReader(this.filePath);
         this.arrayItemHerois = csvItemReader.readCSVToRepository();
     }
 
+    /**
+     * Metodo para procurar um item especifico pelo nome
+     * @param nome recebe o nome do item.
+     * @return retorna o item se encontrado ou null se não.
+     */
     public ItemHeroi procurarItem(String nome){
-        ItemHeroi itemHeroiFinal = null;
         for (ItemHeroi itemHeroi : arrayItemHerois){
             if (itemHeroi.getNome().equalsIgnoreCase(nome)){
-                itemHeroiFinal = itemHeroi;
-            } else {
-                System.out.println("Item não encontrado");
+                return itemHeroi;
             }
         }
-        return itemHeroiFinal;
+        System.out.println("Item não encontrado");
+        return null;
     }
 
     public ArrayList<ItemHeroi> getArrayItems() {

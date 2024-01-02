@@ -11,7 +11,5 @@ public interface FightStrategy {
 
     void ataqueEspecial(Inimigo inimigo, Heroi heroi) throws InterruptedException;
 
-    void ataqueConsumivel(Inimigo inimigo, Heroi heroi);
 
-    void pots(Heroi heroi);
 }
